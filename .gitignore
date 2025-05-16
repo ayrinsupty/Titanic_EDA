@@ -1,0 +1,25 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment folders (if any)
+.env/
+venv/
+.venv/
+
+# VS Code settings folder
+.vscode/
+
+# Data files - ignore raw and downloaded CSVs to keep repo clean
+data/
+*.csv
+
+# Logs and temp files
+*.log
+*.tmp
+
+# MacOS system files
+.DS_Store
