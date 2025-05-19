@@ -16,7 +16,6 @@ def load_css(dark_mode):
 dark_mode = st.sidebar.toggle("🌗 Dark Mode", value=True)  # Or however you choose the theme
 load_css(dark_mode)
 
-
 # Title and description
 st.title("🛳️ Titanic EDA and Survival Prediction")
 
