@@ -1,0 +1,22 @@
+ /* Light mode styles */
+body, .main, .block-container {
+    background-color: white !important;
+    color: black !important;
+}
+.stFormSubmitButton>button, .stDownloadButton>button {
+    background-color: #f0f0f0 !important;
+    color: black !important;
+    border: 1px solid #cccccc !important;
+}
+.stFormSubmitButton>button:hover, .stDownloadButton>button:hover {
+    background-color: #e0e0e0 !important;
+    color: black !important;
+}
+.stAlert p {
+    color: #121212 !important;
+    font-weight: 500 !important;
+}
+.sidebar .sidebar-content {
+    background-color: #f8f8f8 !important;
+    color: black !important;
+}

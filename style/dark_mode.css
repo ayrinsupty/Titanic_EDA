@@ -1,0 +1,18 @@
+/* Dark mode styles */
+body, .main, .block-container {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+.stFormSubmitButton>button, .stDownloadButton>button {
+    background-color: #333333 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #555555 !important;
+}
+.stFormSubmitButton>button:hover, .stDownloadButton>button:hover {
+    background-color: #555555 !important;
+    color: white !important;
+}
+.sidebar .sidebar-content {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+}
