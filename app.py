@@ -5,7 +5,11 @@ import matplotlib.pyplot as plt
 import joblib
 
 # Page config & dark mode toggle
-st.set_page_config(page_title="Titanic EDA & Prediction", layout="wide")
+st.set_page_config(
+    page_title="Titanic EDA & Prediction",
+    page_icon="🛳️",
+    layout="wide"
+)
 
 def load_css(dark_mode):
     css_file = "style/dark_mode.css" if dark_mode else "style/light_mode.css"
